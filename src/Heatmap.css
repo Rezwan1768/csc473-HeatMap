@@ -1,0 +1,56 @@
+.heatmap-container {
+  padding: 20px;
+}
+
+.heatmap-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between heatmaps */
+}
+
+.month-heatmap {
+  flex: 0 1 calc(20% - 20px); /* Make heatmaps take up a third of the row */
+  padding: 15px; /* Inner spacing */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background for differentiation */
+}
+
+.month-heatmap h2 {
+  margin-bottom: 10px; /* Space between header and heatmap */
+  text-align: center;
+}
+
+
+rect.color-empty {
+  fill: #ffffff; /* White for no data */
+}
+
+rect.color-scale-1 {
+  fill: #eaf7e4; /* Light Gray */
+}
+
+rect.color-scale-2 {
+  fill: #cdeac0; 
+}
+
+rect.color-scale-3 {
+  fill: #8bc34a; 
+  
+}
+
+rect.color-scale-4 {
+  fill: #4caf50;; 
+}
+
+rect.color-scale-5 {
+  fill: #2e7d32;
+}
+
+.react-calendar-heatmap .react-calendar-heatmap-week-labels {
+  display: none; /* Hides week labels */
+}
+
+.react-calendar-heatmap .react-calendar-heatmap-month-labels {
+  display: none; /* Hides month labels */
+}
