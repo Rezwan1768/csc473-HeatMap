@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/csc473-HeatMap/static/css/main.022743b3.css",
+    "main.js": "/csc473-HeatMap/static/js/main.d91523d9.js",
+    "static/js/453.94fc9394.chunk.js": "/csc473-HeatMap/static/js/453.94fc9394.chunk.js",
+    "index.html": "/csc473-HeatMap/index.html",
+    "main.022743b3.css.map": "/csc473-HeatMap/static/css/main.022743b3.css.map",
+    "main.d91523d9.js.map": "/csc473-HeatMap/static/js/main.d91523d9.js.map",
+    "453.94fc9394.chunk.js.map": "/csc473-HeatMap/static/js/453.94fc9394.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.022743b3.css",
+    "static/js/main.d91523d9.js"
+  ]
+}
